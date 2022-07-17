@@ -50,7 +50,7 @@ To run your script using PySpark (don't need to start docker before)
     docker run --rm -it -p 4040:4040 -v $(pwd)/script_name.py:/script_name.py gettyimages/spark bin/spark-submit /script_name.py
     
 
-To copy files to server
+To copy files to server (start your server first)
 
     docker cp PATH/script_name.py docker-spark_master_1:/PATH/.
     
