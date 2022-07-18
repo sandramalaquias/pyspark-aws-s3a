@@ -4,7 +4,7 @@
 The original branch for docker Spark and all info about the docker used in this demo, updated versions, etc, can be found [here](https://github.com/gettyimages/docker-spark).
 
 
-If you don't know how to use docker check section `sample commands` below, you will find a basic resume about docker commands.
+If you don't know how to use docker check section [sample commands](#sample commands), you will find a basic resume about docker commands.
 
     
 # PySpark script configuration
@@ -34,7 +34,7 @@ If you don't know how to use docker check section `sample commands` below, you w
 
 
 
-## [docker-compose](http://docs.docker.com/compose): sample commands
+## [docker-compose](http://docs.docker.com/compose): #sample commands
 
 To create a standalone cluster
 
