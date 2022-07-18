@@ -9,6 +9,10 @@ If you don't know how to use docker check section `sample commands` below, you w
     
 # PySpark script configuration
 
+## Start your server and test it
+- docker-compose up --detached
+- Test it - see command in `sample commands`
+
 ## Using local files
 - Create a folder inside your server
 - Copy your files to folder
@@ -17,6 +21,15 @@ If you don't know how to use docker check section `sample commands` below, you w
 
 ## Using AWS S3a files
 - Create a S3 bucket and upload your files there (or use an existing one)
+- Create a file named `aws-credentials.cfg` with content below - add your aws credentials to this file
+     
+      [AWS]
+     
+      AWS_ACCESS_KEY_ID=__YOUR__ACCESS_KEY_ID__
+     
+      AWS_SECRET_ACCESS_KEY=__YOUR__AWS_SECRET_ACCESS_KEY__
+      
+      
 - submit your job, for script sample check file: pyspark_scripts/script-aws.py
 
 
