@@ -1,5 +1,7 @@
 # How to use PySpark with local data or from AWS S3
 
+To install docker follow [here](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
+
 
 The original branch for docker Spark and all info about the docker used in this demo, updated versions, etc, can be found [here](https://github.com/gettyimages/docker-spark).
 
