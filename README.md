@@ -33,8 +33,14 @@ If you don't know how to use docker check section [sample commands](sample-comma
 - submit your job, for script sample check file: pyspark_scripts/script-aws.py
 
 
+#Sample Commands
+.
 
-## [docker-compose](http://docs.docker.com/compose): #sample-commands
+#sample-commands
+
+
+For [docker-compose](http://docs.docker.com/compose): 
+
 
 To create a standalone cluster
 
