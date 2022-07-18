@@ -1,9 +1,24 @@
-# PySpark using data from local server and from AWS S3
-
-The original branch for docker Spark and all info about this docker, updated versions, etc, can be found [here](https://github.com/gettyimages/docker-spark).
+# How to use PySpark with local data or from AWS S3
 
 
-See below a resume about docker commands and after that the info of how to configure your scripts to load info from local server and from AWS S3.
+The original branch for docker Spark and all info about the docker used in this demo, updated versions, etc, can be found [here](https://github.com/gettyimages/docker-spark).
+
+
+If you don't know how to use docker check section `sample commands` below, you will find a basic resume about docker commands.
+
+    
+# PySpark script configuration
+
+## Using local files
+- Create a folder inside your server
+- Copy your files to folder
+- submit your job, for script sample check file: pyspark_scripts/script-local.py
+
+
+## Using AWS S3a files
+- Create a S3 bucket and upload your files there (or use an existing one)
+- submit your job, for script sample check file: pyspark_scripts/script-aws.py
+
 
 
 ## [docker-compose](http://docs.docker.com/compose): sample commands
@@ -59,17 +74,6 @@ From inside the server you can run bash commands or any other command like spark
 
     spark-submit PATH/script_name.py
 
-    
-# PySpark script configuration
-
-## Using local files
-- Create a folder inside your server
-- Copy your files to folder
-- check the file: pyspark_scripts/script-local.py
-
-## Using AWS S3a files
-- Create a S3 bucket and upload your files there (or use an existing one)
-- check the file: pyspark_scripts/script-aws.py
 
 
 ## license
